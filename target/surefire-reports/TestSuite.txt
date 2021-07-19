@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 71.403 s <<< FAILURE! - in TestSuite
+insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate[{Vehicle_List Price=888, Product_startdate=12/12/2023, PriceValidation_Gold=772.00, TC No=2, Vehicle_Annual Mileage=100, Product_insurancesum= 20.000.000,00, Vehicle_Date of Manufacture=09/04/2001, Insurant_Hobby=speeding,Other, SelectOption=Gold, PriceValidation_Ultimate=2,604.00, PriceValidation_Silver=236.00, Vehicle_Make=Volvo, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=900, Insurant_ImageFilePath=??, Vehicle_Model=Scooter, Insurant_country=Sweden, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Volvo Scooter, Vehicle_CylinderCapacity=900, PriceValidation_Platinum=1,367.00, Insurant_FirstName=Seema, Insurant_birthdate=12/12/1977, Insurant_gender=Female}](2)  Time elapsed: 16.484 s  <<< FAILURE!
+java.lang.AssertionError: Pricing for silver plan is not matching. expected [236.00] but found [262.00]
+	at insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:34)
+
+insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate[null](3)  Time elapsed: 1.852 s  <<< FAILURE!
+java.lang.NullPointerException
+	at insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:25)
+
