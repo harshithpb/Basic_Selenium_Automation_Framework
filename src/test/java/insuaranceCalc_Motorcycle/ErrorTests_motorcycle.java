@@ -13,17 +13,17 @@ import testBase.TestBase;
 
 public class ErrorTests_motorcycle extends TestBase{
 	
-	@Test (enabled = false)
+	@Test (enabled = true)
 	public void errorMesssage_cylinderField() throws Exception {
 		homepage.clickOnMotorCycleLink();
 		vehData.enterCylinderCapacity("33333");
 		test.log(Status.PASS, "Cylinder Capacity is filled with data: 33333");
 		String actualErrorMessage = vehData.getErrorMessageOnCylinderCapacity();
-		String expectedErrorMessage = "Must be a number between 1 and 2000";
+		String expectedErrorMessage = "Must be a number between 1 and 2000"; 
 		Assert.assertEquals(actualErrorMessage, expectedErrorMessage, "Error Message is not as expected on cyclinder capacity field");
 		 	
 	}
-	@Test (enabled = false)
+	@Test (enabled = true)
 	public void errorMesssage_cylinderField1() throws Exception {
 		homepage.clickOnMotorCycleLink();
 		vehData.enterCylinderCapacity("33333");

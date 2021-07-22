@@ -6,10 +6,17 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="insuaranceCalc_Motorcycle.ErrorTests_motorcycle">
+        <methods>
+          <include name="errorMesssage_cylinderField1"/>
+          <include name="setupMethod"/>
+          <include name="endMethod"/>
+        </methods>
+      </class> <!-- insuaranceCalc_Motorcycle.ErrorTests_motorcycle -->
       <class name="insuaranceCalc_Motorcycle.EndToEndTests_motorcycle">
         <methods>
           <include name="setupMethod"/>
-          <include name="insuranceCalculate" invocation-numbers="0 1 2"/>
+          <include name="insuranceCalculate" invocation-numbers="1 2"/>
           <include name="endMethod"/>
         </methods>
       </class> <!-- insuaranceCalc_Motorcycle.EndToEndTests_motorcycle -->

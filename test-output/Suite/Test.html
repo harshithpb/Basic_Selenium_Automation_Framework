@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 19 18:32:55 IST 2021</td>
+<td>Started on:</td><td>Thu Jul 22 13:53:37 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>67 seconds (67330 ms)</td>
+<tr><td>Total time:</td><td>121 seconds (121393 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,18 +75,18 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate()'><b>insuranceCalculate</b><br>Test class: insuaranceCalc_Motorcycle.EndToEndTests_motorcycle<br>Parameters: {Vehicle_List Price=888, Product_startdate=12/12/2023, PriceValidation_Gold=236.00, TC No=2, Vehicle_Annual Mileage=100, Product_insurancesum= 20.000.000,00, Vehicle_Date of Manufacture=09/04/2001, Insurant_Hobby=speeding,Other, SelectOption=Gold, PriceValidation_Ultimate=2,604.00, PriceValidation_Silver=696.00, Vehicle_Make=Volvo, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=900, Insurant_ImageFilePath=??, Vehicle_Model=Scooter, Insurant_country=Sweden, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Volvo Scooter, Vehicle_CylinderCapacity=900, PriceValidation_Platinum=1,367.00, Insurant_FirstName=Seema, Insurant_birthdate=12/12/1977, Insurant_gender=Female}</td>
-<td><div><pre>java.lang.AssertionError: Pricing for gold plan is not matching. expected [236.00] but found [772.00]
-	at insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:33)
+<td title='insuaranceCalc_Motorcycle.ErrorTests_motorcycle.errorMesssage_cylinderField1()'><b>errorMesssage_cylinderField1</b><br>Test class: insuaranceCalc_Motorcycle.ErrorTests_motorcycle</td>
+<td><div><pre>java.lang.AssertionError: Error Message is not as expected on cyclinder capacity field expected [Must be a number between 1 and 3000] but found [Must be a number between 1 and 2000]
+	at insuaranceCalc_Motorcycle.ErrorTests_motorcycle.errorMesssage_cylinderField1(ErrorTests_motorcycle.java:33)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1382717704", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1382717704'><pre>java.lang.AssertionError: Pricing for gold plan is not matching. expected [236.00] but found [772.00]
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace266376067", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace266376067'><pre>java.lang.AssertionError: Error Message is not as expected on cyclinder capacity field expected [Must be a number between 1 and 3000] but found [Must be a number between 1 and 2000]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
-	at insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:33)
+	at insuaranceCalc_Motorcycle.ErrorTests_motorcycle.errorMesssage_cylinderField1(ErrorTests_motorcycle.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -116,17 +116,17 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>17</td>
-<td>insuaranceCalc_Motorcycle.EndToEndTests_motorcycle@7674f035</td></tr>
+<td>2</td>
+<td>insuaranceCalc_Motorcycle.ErrorTests_motorcycle@196a42c3</td></tr>
 <tr>
 <td title='insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate()'><b>insuranceCalculate</b><br>Test class: insuaranceCalc_Motorcycle.EndToEndTests_motorcycle<br>Parameters: null</td>
 <td><div><pre>java.lang.NullPointerException
-	at pageObjects.EnterVehicleDataPageObject.enterVehicleData(EnterVehicleDataPageObject.java:71)
+	at pageObjects.EnterVehicleDataPageObject.enterVehicleData(EnterVehicleDataPageObject.java:68)
 	at insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:25)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1775046789", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1775046789'><pre>java.lang.NullPointerException
-	at pageObjects.EnterVehicleDataPageObject.enterVehicleData(EnterVehicleDataPageObject.java:71)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1816633311", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1816633311'><pre>java.lang.NullPointerException
+	at pageObjects.EnterVehicleDataPageObject.enterVehicleData(EnterVehicleDataPageObject.java:68)
 	at insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -157,21 +157,21 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>insuaranceCalc_Motorcycle.EndToEndTests_motorcycle@7674f035</td></tr>
+<td>4</td>
+<td>insuaranceCalc_Motorcycle.EndToEndTests_motorcycle@69e153c5</td></tr>
 <tr>
-<td title='insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate()'><b>insuranceCalculate</b><br>Test class: insuaranceCalc_Motorcycle.EndToEndTests_motorcycle<br>Parameters: {Vehicle_List Price=888, Product_startdate=12/12/2022, PriceValidation_Gold=236.00, TC No=1, Vehicle_Annual Mileage=100, Product_insurancesum= 5.000.000,00, Vehicle_Date of Manufacture=09/04/2019, Insurant_Hobby=speeding,Other, SelectOption=Silver, PriceValidation_Ultimate=2,604.00, PriceValidation_Silver=696.00, Vehicle_Make=Honda, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=666, Insurant_ImageFilePath=??, Vehicle_Model=Motorcycle, Insurant_country=India, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Honda MotorCycle, Vehicle_CylinderCapacity=333, PriceValidation_Platinum=1,367.00, Insurant_FirstName=Prakash, Insurant_birthdate=12/12/1989, Insurant_gender=Male}</td>
-<td><div><pre>java.lang.AssertionError: Pricing for gold plan is not matching. expected [236.00] but found [696.00]
-	at insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:33)
+<td title='insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate()'><b>insuranceCalculate</b><br>Test class: insuaranceCalc_Motorcycle.EndToEndTests_motorcycle<br>Parameters: {Vehicle_List Price=888, Product_startdate=12/12/2023, PriceValidation_Gold=772.00, TC No=2, Vehicle_Annual Mileage=100, Product_insurancesum= 20.000.000,00, Vehicle_Date of Manufacture=09/04/2001, Insurant_Hobby=speeding,Other, SelectOption=Gold, PriceValidation_Ultimate=2,604.00, PriceValidation_Silver=262.00, Vehicle_Make=Volvo, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=900, Insurant_ImageFilePath=??, Vehicle_Model=Scooter, Insurant_country=Sweden, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Volvo Scooter, Vehicle_CylinderCapacity=900, PriceValidation_Platinum=1,367.00, Insurant_FirstName=Seema, Insurant_birthdate=12/12/1977, Insurant_gender=Female}</td>
+<td><div><pre>java.lang.AssertionError: Pricing for platimum plan is not matching. expected [1,367.00] but found [1,515.00]
+	at insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:35)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace560858993", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace560858993'><pre>java.lang.AssertionError: Pricing for gold plan is not matching. expected [236.00] but found [696.00]
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1904047495", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1904047495'><pre>java.lang.AssertionError: Pricing for platimum plan is not matching. expected [1,367.00] but found [1,515.00]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
-	at insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:33)
+	at insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate(EndToEndTests_motorcycle.java:35)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -201,8 +201,31 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>17</td>
-<td>insuaranceCalc_Motorcycle.EndToEndTests_motorcycle@7674f035</td></tr>
+<td>16</td>
+<td>insuaranceCalc_Motorcycle.EndToEndTests_motorcycle@69e153c5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='insuaranceCalc_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate()'><b>insuranceCalculate</b><br>Test class: insuaranceCalc_Motorcycle.EndToEndTests_motorcycle<br>Parameters: {Vehicle_List Price=888, Product_startdate=12/12/2022, PriceValidation_Gold=696.00, TC No=1, Vehicle_Annual Mileage=100, Product_insurancesum= 5.000.000,00, Vehicle_Date of Manufacture=09/04/2019, Insurant_Hobby=speeding,Other, SelectOption=Silver, PriceValidation_Ultimate=2,604.00, PriceValidation_Silver=236.00, Vehicle_Make=Honda, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=666, Insurant_ImageFilePath=??, Vehicle_Model=Motorcycle, Insurant_country=India, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Honda MotorCycle, Vehicle_CylinderCapacity=333, PriceValidation_Platinum=1,367.00, Insurant_FirstName=Prakash, Insurant_birthdate=12/12/1989, Insurant_gender=Male}</td>
+<td></td>
+<td>18</td>
+<td>insuaranceCalc_Motorcycle.EndToEndTests_motorcycle@69e153c5</td></tr>
+<tr>
+<td title='insuaranceCalc_Motorcycle.ErrorTests_motorcycle.errorMesssage_cylinderField()'><b>errorMesssage_cylinderField</b><br>Test class: insuaranceCalc_Motorcycle.ErrorTests_motorcycle</td>
+<td></td>
+<td>2</td>
+<td>insuaranceCalc_Motorcycle.ErrorTests_motorcycle@196a42c3</td></tr>
+<tr>
+<td title='insuaranceCalc_Motorcycle.ErrorTests_motorcycle.verifyModelDropdownOptions()'><b>verifyModelDropdownOptions</b><br>Test class: insuaranceCalc_Motorcycle.ErrorTests_motorcycle</td>
+<td></td>
+<td>2</td>
+<td>insuaranceCalc_Motorcycle.ErrorTests_motorcycle@196a42c3</td></tr>
 </table><p>
 </body>
 </html>

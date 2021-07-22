@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="insuaranceCalc_Motorcycle.ErrorTests_motorcycle">
+      <class name="insuaranceCalc_Motorcycle.EndToEndTests_motorcycle">
         <methods>
-          <include name="errorMesssage_cylinderField"/>
           <include name="setupMethod"/>
+          <include name="insuranceCalculate"/>
           <include name="endMethod"/>
         </methods>
-      </class> <!-- insuaranceCalc_Motorcycle.ErrorTests_motorcycle -->
+      </class> <!-- insuaranceCalc_Motorcycle.EndToEndTests_motorcycle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
